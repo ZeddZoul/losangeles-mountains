@@ -1,0 +1,38 @@
+.Footer{
+  display: flex;
+  padding: 5px 20% ;
+  background-color: #404E6C ;
+  justify-content: space-between;
+  align-items: center;
+  @media(max-width: 950px){
+    padding: 10px 10%;
+
+  }
+  @media(max-width: 450px){
+    padding: 10px 5%;
+
+  }
+h5{
+   font-family: var(--main-font);
+   font-weight: 600;
+   font-size: 13px;
+   color:#63769D;
+
+@media(max-width: 650px){
+font-size: 10px;
+  }
+
+}
+img{
+  @media(max-width: 950px){
+    height: auto;
+    width: 23%;
+    min-width: 60px;
+}
+@media(max-width: 450px){
+width: 60px;
+height: auto;
+
+  }
+}
+}

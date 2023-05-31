@@ -1,0 +1,56 @@
+.Climb{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .top{
+    padding: 10px 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    > h2 {
+      font-family: var(--other-font);
+      font-size: 32px;
+      color: #414f6b;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: relative;
+      margin-left: -100px;
+
+      span {
+        font-family: var(--other-font);
+        opacity: 0.502;
+        font-size: 136px;
+        color: #414f6b;
+        font-weight: 700;
+        position: relative;
+        top: 25px;
+        left: 30px;
+      }
+    }
+    > p {
+      font-family: var(--main-font);
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #000000;
+      font-weight: 300;
+      width: 70%;
+     transform:translateY(30px);
+    }
+  }
+  .Tabs{
+  
+    display: block;
+    @media (max-width: 600px){
+    
+      display: none;
+    }
+  }
+  .Accordion{
+    display: none;
+   @media (max-width: 600px){
+      display: block;
+    }
+  }
+}
